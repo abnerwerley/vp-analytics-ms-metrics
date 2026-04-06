@@ -4,3 +4,8 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS}
+    mail:
+      host: ${MAIL_HOST:localhost}
+      port: ${MAIL_PORT:1025}
